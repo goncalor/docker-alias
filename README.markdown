@@ -1,6 +1,26 @@
 docker-alias
 ============
 
+docker-alias provides you with aliases for some common [Docker][docker-com] tasks.
+
+[docker-com]: https://www.docker.com
+
+
+Aliases
+-------
+
+All aliases start with `docker-`. The rest of the alias describes more or less what the command does. The aliases may seem long, but once you type `docker-` and two more characters your shell's tab completion should figure the rest.
+
+**`docker-rm-all`** Removes all stopped containers.
+
+**`docker-stop-all`** Stops all running containers, giving them time to stop.
+
+**`docker-force-rm-all`** Stops and them removes all containers.
+
+**`docker-volume-rm-all`** Removes all volumes not in use.
+
+**`docker-shark`** Stops and removes all containers and *removes all volumes*. (Be careful!)
+
 
 Installation
 ------------
@@ -30,4 +50,4 @@ Add the following command to your `.bashrc`, `.zshrc`, or other script that suit
 
     source ~/.config/docker-alias/docker.alias
 
-That will make the new aliases available the next time you log in. If you want to make them available right now just run that same command on your current shell.
+That will make the new aliases available the next time you open a terminal. If you want to make them available right now just run that same command on your current shell.
