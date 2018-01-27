@@ -15,7 +15,7 @@ All aliases start with `docker-`. The rest of the alias describes more or less w
 
 **`docker-stop-all`** Stops all running containers, giving them time to stop.
 
-**`docker-force-rm-all`** Stops and them removes all containers.
+**`docker-force-rm-all`** Stops and then removes all containers.
 
 **`docker-volume-rm-all`** Removes all volumes not in use.
 
